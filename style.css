@@ -12,6 +12,12 @@
   width: 2rem;
 }
 
+.links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transiton);
+}
+
 .toggle-links {
   height: 12rem;
 }
