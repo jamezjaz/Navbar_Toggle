@@ -12,6 +12,10 @@
   width: 2rem;
 }
 
+.nav-togle:hover {
+  transform: scale(1) rotateZ(calc(20 * -2deg));
+}
+
 .links {
   height: 0;
   overflow: hidden;
