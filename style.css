@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 8rem;
+}
+
+.fa-bars {
+  width: 2rem;
+}
+
+.nav-togle:hover {
+  transform: scale(1) rotateZ(calc(20 * -2deg));
+}
+
+.links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transiton);
+}
+
+.toggle-links {
+  height: 15rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-togle {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+  }
+}
